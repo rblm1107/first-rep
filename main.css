@@ -1,11 +1,29 @@
+
+body{
+    border: 1px solid #000;
+    margin-right: 0px;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.3)
+}
+
 hr{
     width: 100px;
-    height: 3px;
-    float:left;
+    height: 3px; 
+    background-color: #0a9   
 }
 #grayscale{
-    border-left: 4px solid #0b0;
+    border-left: 4px solid #0a9;
     padding-left: 15px;
+}
+h1#scale {
+    padding-top: 100px;
+}
+header h1{
+   background-color: linear(#fff,#aaa);
+}
+span{
+    color: #0a9;
 }
 #banner{
     height: 900px;
@@ -14,11 +32,16 @@ hr{
     background-repeat: no-repeat;
     margin-bottom: 0px;
 }
-footer{
-    
+#inputemail{
+    width : 400px;
+}
+footer hr{
+    text-align: center;
 }
 #footer{
-    background-image: url("./img/demo-image-02.jpg");
+    height: 500px;
+    background-image: url("./img/bg-signup.jpg");
+    background-position-y: 40%;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0px;
