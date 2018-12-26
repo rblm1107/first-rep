@@ -1,0 +1,25 @@
+hr{
+    width: 100px;
+    height: 3px;
+    float:left;
+}
+#grayscale{
+    border-left: 4px solid #0b0;
+    padding-left: 15px;
+}
+#banner{
+    height: 900px;
+    background-image: url("./img/bg-masthead.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+footer{
+    
+}
+#footer{
+    background-image: url("./img/demo-image-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
